@@ -84,6 +84,15 @@ int n=1;
 
 - (IBAction)ten:(id)sender {
     shou=1;
+    switch (keisan) {
+    case 0:
+     [[self Label] setText:[NSString stringWithFormat:@"%g.",x]];
+            break;
+            
+            case 1:
+            [[self Label] setText:[NSString stringWithFormat:@"%g.",y]];
+            break;
+    }
     
 }
 
@@ -95,7 +104,7 @@ int n=1;
             [[self Label] setText:[NSString stringWithFormat:@"%g",Z]];
             x=Z;
             y=0;
-            keisan=1;
+            keisan=0;
             break;
             
         case 2:
@@ -103,7 +112,7 @@ int n=1;
             [[self Label] setText:[NSString stringWithFormat:@"%g",Z]];
             x=Z;
             y=0;
-            keisan=2;
+           keisan=0;
             break;
             
             
@@ -112,7 +121,7 @@ int n=1;
             [[self Label] setText:[NSString stringWithFormat:@"%g",Z]];
             x=Z;
             y=0;
-            keisan=3;
+           keisan=0;
             break;
             
         case 4:
@@ -120,7 +129,7 @@ int n=1;
             [[self Label] setText:[NSString stringWithFormat:@"%g",Z]];
             x=Z;
             y=0;
-            keisan=4;
+            keisan=0;
             break;
     }
     

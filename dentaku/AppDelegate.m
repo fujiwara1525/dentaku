@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  dentaku
 //
-//  Created by 松尾　牧人 on 13/01/10.
-//  Copyright (c) 2013年 admin. All rights reserved.
+//  Created by 松尾　牧人 on 12/11/08.
+//  Copyright (c) 2012年 Makito Matsuo. All rights reserved.
 //
 
 #import "AppDelegate.h"

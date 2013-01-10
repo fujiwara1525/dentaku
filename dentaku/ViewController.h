@@ -7,22 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StateMachine.h"
 
-@interface ViewController : UIViewController{
-    
-   // int x;
-   // int answer;
-   // int jou;
-   // int y;
-   // int keisan;
-   // double Z;
-    
-    
+@interface ViewController : UIViewController
+{
+    IBOutlet UILabel* label;
+    enum {dentaku} state;
 }
 
-@property enum {dentaku} state;
 
-- (void)Button:(int)number;
+
+@property StateMachine* model;
 
 - (IBAction)zero:(id)sender;
 
@@ -62,9 +57,6 @@
 
 - (IBAction)hanten:(id)sender;
 
-@property (weak, nonatomic) IBOutlet UILabel *Label;
-
-@property (weak, nonatomic) IBOutlet UIButton *AC;
 
 
 @end

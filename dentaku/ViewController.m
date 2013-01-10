@@ -83,15 +83,15 @@ int n=1;
 }
 
 - (IBAction)ten:(id)sender {
-    shou=1;
-    switch (keisan) {
-    case 0:
-     [[self Label] setText:[NSString stringWithFormat:@"%g.",x]];
-            break;
+        shou=1;
+        switch (keisan) {
+            case 0:
+                [[self Label] setText:[NSString stringWithFormat:@"%g.",x]];
+                break;
             
             case 1:
-            [[self Label] setText:[NSString stringWithFormat:@"%g.",y]];
-            break;
+                [[self Label] setText:[NSString stringWithFormat:@"%g.",y]];
+                break;
     }
     
 }

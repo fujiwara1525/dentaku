@@ -10,15 +10,8 @@
 
 
 @implementation StateMachine
-
-double x;
-int shou;
-double W;
-double y;
-int n;
-int keisan;
-int s;
-int answer;
+@synthesize x;
+@synthesize y;
 
 -(id)init{
     x = 0;
@@ -28,6 +21,7 @@ int answer;
     y = 0;
     keisan = 0;
     s = 0;
+    answer = 0;
     
     return self;
 }
@@ -60,7 +54,6 @@ int answer;
 -(double)keisan:(int)answer{
     switch (answer){
         case 1:
-            
             x=x+y;
             break;
             
@@ -79,12 +72,12 @@ int answer;
     return x;
 }
 
--(double)hantenx:(int)answer{
+-(double)hantenx:(int)han{
     x=x*(-1);
     return x;
     }
 
--(double)hanteny:(int)answer{
+-(double)hanteny:(int)han{
     y=y*(-1);
     return y;
 }

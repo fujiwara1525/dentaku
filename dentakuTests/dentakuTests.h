@@ -7,7 +7,10 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "StateMachine.h"
 
 @interface dentakuTests : SenTestCase
+
+@property StateMachine* statemachine;
 
 @end

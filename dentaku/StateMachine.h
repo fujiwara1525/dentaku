@@ -8,13 +8,24 @@
 
 #import <Foundation/Foundation.h>
 @class ViewController;
-@interface StateMachine : NSObject
+@interface StateMachine : NSObject{
+    int shou;
+    double W;
+
+    int n;
+    int keisan;
+    int s;
+    int answer;
+}
+
+@property double x;
+@property double y;
 
 -(double)keisanx:(int)number;
 -(double)keisany:(int)number;
 -(double)keisan:(int)answer;
--(double)hantenx:(int)answer;
--(double)hanteny:(int)answer;
+-(double)hantenx:(int)han;
+-(double)hanteny:(int)han;
 -(int)AC:(int)ans;
 -(int)C:(int)ans;
 @end

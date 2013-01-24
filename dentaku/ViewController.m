@@ -27,6 +27,7 @@ double W=0;
 double s=0;
 int n=1;
 int ans;
+int han;
 
 - (void)viewDidLoad
 {
@@ -203,10 +204,10 @@ int ans;
 - (IBAction)hanten:(id)sender {
     switch (keisan) {
             case 0:
-            [[self label] setText:[NSString stringWithFormat:@"%g",[statemachine hantenx:answer]]];
+            [[self label] setText:[NSString stringWithFormat:@"%g",[statemachine hantenx:han]]];
             break;
             case 1:
-            [[self label] setText:[NSString stringWithFormat:@"%g",[statemachine hanteny:answer]]];
+            [[self label] setText:[NSString stringWithFormat:@"%g",[statemachine hanteny:han]]];
             break;
     }
 }

@@ -7,17 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "StateMachine.h"
 
-@interface ViewController : UIViewController
-{
-    IBOutlet UILabel* label;
-    enum {dentaku} state;
+@interface ViewController : UIViewController{
+
+
 }
 
+@property enum {dentaku} state;
 
-
-@property StateMachine* model;
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 - (IBAction)zero:(id)sender;
 
@@ -56,6 +54,9 @@
 - (IBAction)waru:(id)sender;
 
 - (IBAction)hanten:(id)sender;
+
+
+
 
 
 

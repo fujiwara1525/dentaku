@@ -376,8 +376,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="AC" destination="WQe-dF-niD" id="BzA-WB-ymC"/>
-                        <outlet property="Label" destination="2vi-XQ-oVv" id="R65-uP-mhU"/>
+                        <outlet property="label" destination="2vi-XQ-oVv" id="gEx-Fo-YuJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
@@ -413,6 +412,7 @@
                 <relationship kind="action" name="zero:"/>
                 <relationship kind="outlet" name="AC" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="label" candidateClass="UILabel"/>
             </relationships>
         </class>
     </classes>

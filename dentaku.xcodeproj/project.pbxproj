@@ -23,7 +23,7 @@
 		6A8A0B49169E7B7800004F1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8A0B24169E7B7700004F1A /* Foundation.framework */; };
 		6A8A0B51169E7B7800004F1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A8A0B4F169E7B7800004F1A /* InfoPlist.strings */; };
 		6A8A0B54169E7B7800004F1A /* dentakuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8A0B53169E7B7800004F1A /* dentakuTests.m */; };
-		6A8A0B67169E90FD00004F1A /* StateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8A0B66169E90FD00004F1A /* StateMachine.m */; };
+		6AD9566416A7B39700B5E5DE /* StateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD9566316A7B39700B5E5DE /* StateMachine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,8 @@
 		6A8A0B50169E7B7800004F1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A8A0B52169E7B7800004F1A /* dentakuTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dentakuTests.h; sourceTree = "<group>"; };
 		6A8A0B53169E7B7800004F1A /* dentakuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dentakuTests.m; sourceTree = "<group>"; };
-		6A8A0B65169E90FD00004F1A /* StateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateMachine.h; sourceTree = "<group>"; };
-		6A8A0B66169E90FD00004F1A /* StateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateMachine.m; sourceTree = "<group>"; };
+		6AD9566216A7B39700B5E5DE /* StateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateMachine.h; sourceTree = "<group>"; };
+		6AD9566316A7B39700B5E5DE /* StateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateMachine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +126,8 @@
 				6A8A0B3D169E7B7800004F1A /* ViewController.h */,
 				6A8A0B3E169E7B7800004F1A /* ViewController.m */,
 				6A8A0B29169E7B7800004F1A /* Supporting Files */,
-				6A8A0B65169E90FD00004F1A /* StateMachine.h */,
-				6A8A0B66169E90FD00004F1A /* StateMachine.m */,
+				6AD9566216A7B39700B5E5DE /* StateMachine.h */,
+				6AD9566316A7B39700B5E5DE /* StateMachine.m */,
 			);
 			path = dentaku;
 			sourceTree = "<group>";
@@ -278,7 +278,7 @@
 				6A8A0B2F169E7B7800004F1A /* main.m in Sources */,
 				6A8A0B33169E7B7800004F1A /* AppDelegate.m in Sources */,
 				6A8A0B3F169E7B7800004F1A /* ViewController.m in Sources */,
-				6A8A0B67169E90FD00004F1A /* StateMachine.m in Sources */,
+				6AD9566416A7B39700B5E5DE /* StateMachine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
